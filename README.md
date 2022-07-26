@@ -1,12 +1,17 @@
 # InternshipProject
 
 Prerequisites : 
+
    Summit_xl:
+   
     https://github.com/RobotnikAutomation/summit_xl_sim.git
+    
     https://github.com/Kinovarobotics/kinova-ros.git
     
   Computer vision: 
+  
     https://github.com/EscVM/OIDv4_ToolKit.git
+    
     Download Darknet 
   
   
