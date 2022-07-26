@@ -23,7 +23,9 @@ move_object.py and open_door.py take as input a parameter which corresponds to t
 Results folder : Video of the results obtained using the files open_door.py and move_object.py 
 
 Yolov4 folder : Configuration files for door and handle detection. 
+
 This command line allows to generate the images on which to work : python main.py downloader --classes '*Name_of_model*' --type_csv train --limit 1500 (*number_of_image_wanted*)
+
 convert_label.py allows to give the right format to the labels of the images generated previously. 
 
 #########################################################################################################################################################
