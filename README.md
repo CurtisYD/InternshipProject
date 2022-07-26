@@ -23,6 +23,7 @@ move_object.py and open_door.py take as input a parameter which corresponds to t
 Results folder : Video of the results obtained using the files open_door.py and move_object.py 
 
 Yolov4 folder : Configuration files for door and handle detection. 
+
 #########################################################################################################################################################
 
 Command to run programm: 
@@ -50,8 +51,11 @@ Moveit summit_kinova :
 ROS_NAMESPACE=robot roslaunch summit_xl_j2s7s300_moveit_config demo.launch
 
 Python script to command robot : 
+
 rosrun kinova_command move_arm.py 0.0 2.355 0.0 3.925 0.0 3.14 1.57
+
 rosrun kinova_command move_robot.py 
+
 rosrun kinova_command open_door.py 3 0 0 0 0 0 1 
 
 90° = 1.57 ; 180° = 3.14 ; 360° = 6.28
