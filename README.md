@@ -1,9 +1,10 @@
 # InternshipProject
 
 Prerequisites : 
-   Summit_xl: 
+   Summit_xl:
     https://github.com/RobotnikAutomation/summit_xl_sim.git
     https://github.com/Kinovarobotics/kinova-ros.git
+    
   Computer vision: 
     https://github.com/EscVM/OIDv4_ToolKit.git
     Download Darknet 
@@ -17,7 +18,7 @@ move_object.py and open_door.py take as input a parameter which corresponds to t
 Results folder : Video of the results obtained using the files open_door.py and move_object.py 
 
 Yolov4 folder : Configuration files for door and handle detection. 
-
+#########################################################################################################################################################
 
 Command to run programm: 
 
@@ -50,5 +51,6 @@ rosrun kinova_command open_door.py 3 0 0 0 0 0 1
 
 90° = 1.57 ; 180° = 3.14 ; 360° = 6.28
 
+#########################################################################################################################################################
 
  
